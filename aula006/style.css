@@ -1,0 +1,122 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+
+
+.hero{
+    height: 600px;
+    background-image: url(imagens/bg-3.jpg);
+    background-position: right center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-top: 1px solid transparent;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px;
+}
+
+.hero nav li{
+    display: inline-block;
+    
+}
+
+.hero nav a{
+    color: white;
+    text-decoration: none;
+    background: rgba(0, 0, 0, .5);
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, .3);
+    font-size: larger;
+    transition: .3s;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 5px #333;
+    
+}
+
+.hero-content p{
+    background: rgba(0, 0, 0, .5);
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+main{
+    margin:auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.section-content{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+    
+}
+
+.card p{
+    background: rgba(0, 0, 0, .8);
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+.section-content h2{
+    background-color: #aaaaaa;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    
+}
+
+
+
+
+footer{
+    background-color: #727272;
+    color: white;
+    text-align: center;
+    height: 80px;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px black;
+    line-height: 80px;  /*centralizar o texto verticalmente*/
+}
+
